@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T13:21:33 EST" name="Default suite" finished-at="2024-03-02T13:21:37 EST" duration-ms="3753">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T13:21:33 EST" name="Default test" finished-at="2024-03-02T13:21:37 EST" duration-ms="3753">
+      <class name="RestAssured_API_demo.RestAssured.AppTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAssured_API_demo.RestAssured.AppTest@1623b78d]" started-at="2024-03-02T13:21:33 EST" name="setup" finished-at="2024-03-02T13:21:33 EST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="putRequest()[pri:0, instance:RestAssured_API_demo.RestAssured.AppTest@1623b78d]" started-at="2024-03-02T13:21:33 EST" name="putRequest" finished-at="2024-03-02T13:21:35 EST" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+        <test-method signature="delRequest()[pri:0, instance:RestAssured_API_demo.RestAssured.AppTest@1623b78d]" started-at="2024-03-02T13:21:35 EST" name="delRequest" finished-at="2024-03-02T13:21:35 EST" depends-on-methods="RestAssured_API_demo.RestAssured.AppTest.putRequest" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delRequest -->
+        <test-method signature="postRequest_json()[pri:1, instance:RestAssured_API_demo.RestAssured.AppTest@1623b78d]" started-at="2024-03-02T13:21:35 EST" name="postRequest_json" finished-at="2024-03-02T13:21:36 EST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest_json -->
+        <test-method signature="getRequest()[pri:2, instance:RestAssured_API_demo.RestAssured.AppTest@1623b78d]" started-at="2024-03-02T13:21:36 EST" name="getRequest" finished-at="2024-03-02T13:21:36 EST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RestAssured_API_demo.RestAssured.AppTest@1623b78d]" started-at="2024-03-02T13:21:36 EST" name="teardown" finished-at="2024-03-02T13:21:37 EST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- RestAssured_API_demo.RestAssured.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
